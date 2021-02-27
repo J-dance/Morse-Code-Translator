@@ -1,0 +1,33 @@
+//  import fonts
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@300;400;700&display=swap');
+@import "_variables.scss";
+
+$main-font: 'Saira', sans-serif;
+
+
+body {
+  font-family: $main-font;
+}
+.mainHeader {
+  font-size: 42px;
+}
+
+.labels {
+  font-size: 24px;
+  color: $my-pink;
+}
+
+.inputBox {
+  font-family: $main-font;
+  font-size: 16px;
+  color: $my-black;
+}
+.button {
+  font-size: 24px;
+  color: $my-pink;
+}
+
+#display {
+  color: $my-black;
+  font-size: 18px;
+}

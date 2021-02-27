@@ -1,0 +1,25 @@
+@import "_variables.scss";
+
+.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($color: $my-white , $alpha: 0);
+  height: 120px;
+  width: 120px;
+  border: 3px solid $my-black;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  border: 3px solid $my-green;
+}
+
+.button:active {
+  transform: scale(1.1);
+  border: 3px solid $my-white;
+  background: rgba($color: $my-white, $alpha: 0.05);
+}
