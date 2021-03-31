@@ -55,6 +55,7 @@ const translateIt = () => {
 document.getElementById('englishLabel').addEventListener("click", englishOption);
 
 document.getElementById('morseLabel').addEventListener("click", morseOption);
+// console.log(document.getElementById('englishLabel'))
 
 // translate
 document.getElementById('button').addEventListener("click", translateIt) 
